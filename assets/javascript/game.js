@@ -7,14 +7,12 @@ var computerGuess = options[Math.floor(Math.random() * options.length)];
 
 document.onkeyup = function () {
     var userGuess = String.fromCharCode(event.keyCode).toLocaleLowerCase();
-    // var computerGuess = options[Math.floor(Math.random() * options.length)];
 
     if (userGuess == computerGuess) {
         wins++;
         guessesLeft = 9;
         lettersGuessed = [];
         computerGuess = options[Math.floor(Math.random() * options.length)];
-        
     }
 
     if (userGuess != computerGuess) {
@@ -27,7 +25,7 @@ document.onkeyup = function () {
         losses++;
         lettersGuessed = []
         computerGuess = options[Math.floor(Math.random() * options.length)];
-        
+
     }
 
 

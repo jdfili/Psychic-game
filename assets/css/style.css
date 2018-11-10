@@ -18,18 +18,17 @@ h1 {
 }
 
 .header {
-    color: rgb(59, 216, 98);
+    color: rgb(255, 162, 23);
     display: flex;
     justify-content: center;
     font-family: 'Creepster', cursive;
     font-size: 32px;
-    border: 1px rgb(59, 216, 98) solid;
-    border-radius: 25px;
+    border: 2px rgb(255, 162, 23) dotted;
+    border-bottom: none;
     width: 600px;
     height: 200px;
     margin-left: 320px;
     margin-top: 10px;
-    
 }
 
 .container {
@@ -37,10 +36,9 @@ h1 {
     background: black;
     color: white;
     width: 600px;
-    margin-left: 325px;
-    border-radius: 25px;
-    margin-top: 10px;
-    border: 1px solid rgb(59, 216, 98);
+    margin-left: 320px;
+    border: 2px dotted rgb(255, 162, 23);
+    border-top: 2px dotted rgb(2, 2, 2);
 }
 
 p {
