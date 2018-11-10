@@ -32,7 +32,7 @@ document.onkeyup = function () {
 
 
     var html = "<div class='header'> <h1> The Psychic Game </h1> </div>" +
-        "<div class='container'> <p>Guess what letter I'm thinking of</p>" +
+        "<div class='container'> <p>Guess what letter I'm thinking of!</p>" +
         "<p>Wins: " + wins + "</p>" +
         "<p>Losses: " + losses + "</p>" +
         "<p>Guesses left: " + guessesLeft + "</p>" +
