@@ -1,11 +1,19 @@
 body {
     background: black;
+    margin: 0 auto;
     
 }
 
 #game {
     background: rgb(2, 2, 2);
+    background-image: url(assets/images/psychic-ability.jpg);
+    width: 500px;
+ 
     
+}
+
+h1 {
+    text-shadow: black 5px 2px;
 }
 
 .header {
@@ -14,22 +22,38 @@ body {
     justify-content: center;
     font-family: 'Creepster', cursive;
     font-size: 32px;
-    border: 1px rgb(59, 216, 98) dotted;
+    border: 5px rgb(59, 216, 98) dashed;
     border-radius: 25px;
     width: 600px;
     height: 200px;
     margin-left: 320px;
+    margin-top: 10px;
+    
 }
 
 .container {
     font-family: 'Acme', sans-serif;
     background: black;
     color: white;
-    width: 250px;
-    margin-left: 490px;
+    width: 600px;
+    margin-left: 320px;
+    border: dashed 5px rgb(59, 216, 98);
+    border-radius: 25px;
+    margin-top: 10px;
 }
 
 p {
     display: flex;
     justify-content: center;
+}
+
+img {
+    float: right;
+    margin-top: -400px;
+    margin-right: 535px;
+}
+
+iframe {
+    border: none;
+    
 }
