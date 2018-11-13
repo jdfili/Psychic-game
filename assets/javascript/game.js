@@ -36,5 +36,5 @@ document.onkeyup = function () {
         "<p>Guesses left: " + guessesLeft + "</p>" +
         "<p>Letters guessed: " + lettersGuessed.join(", ") + "</p> </div>";
 
-    document.querySelector("#game").innerHTML = html;
+    document.querySelector(".game").innerHTML = html;
 }
